@@ -10,7 +10,43 @@
     <title>Insect Catch Game</title>
   </head>
   <body>
-    <h1>Project Start</h1>
+    <div class="screen">
+      <h1>Catch the Insect</h1>
+      <div class="btn" id="start-btn">Play Game</div>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" insect?</h1>
+      <ul class="insect-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png" alt="mosquito">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mostuito</p>
+            <img src="http://pngimg.com/uploads/spider/spider_PNG12.png" alt="spider">
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container">
+      <h3 id="time">Time: 00:00</h3>
+      <h3 id="score">Score: 0</h3>
+      <h5 id="message">
+        Are you annoyed yet? <br>
+        You are playing an impossible game!
+      </h5>
+    </div>
 
     <script src="script.js"></script>
   </body>
